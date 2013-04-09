@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/commons-net-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/tftpd.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jgit-2.1.0.201209190230-r.jar"/>
+	<classpathentry kind="lib" path="lib/jsch-20091114.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
