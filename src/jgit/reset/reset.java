@@ -1,4 +1,4 @@
-package reset;
+package jgit.reset;
 
 import java.io.File;
 import java.io.IOException;

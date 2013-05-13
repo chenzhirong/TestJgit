@@ -36,9 +36,9 @@ public class LogAndTag {
 	public static void main(String[] args) {
 		LogAndTag l = new LogAndTag();
 		// System.out.println(l.getLog());
-		//System.out.println(l.getTag("ce2110fa2cf47c60868e1b0284c62968892e6d20"));
+		System.out.println(l.getTag("ce2110fa2cf47c60868e1b0284c62968892e6d20"));
 	//	l.createTag("ce2110fa2cf47c60868e1b0284c62968892e6d20", "123", "rongzai521");
-		l.getRef();
+		//l.getRef();
 		//l.createTag();
 	}
 	/**
