@@ -35,8 +35,8 @@ public class GitUtil {
 //			}
 //    		boolean flg=GitUtil.rollBackPreRevision("D:/cfrManage/ConfigFile/.git", "9d557d4891ddc428125f2fa334d9410aea4d34c9");
 //    		System.out.println(flg);
-    		String version=GitUtil.commitToGitRepository("D:/cfrManage/ConfigFile/.git", null);
-	        System.out.println(version);
+    		//String version=GitUtil.commitToGitRepository("D:/cfrManage/ConfigFile/.git", null);
+	       // System.out.println(version);
     	} catch (Exception e) {
 			e.printStackTrace();
 		}

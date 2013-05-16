@@ -65,10 +65,10 @@ public class JgitPush {
 					//"rongzai1", "rongzai521");
 			//System.out.println(flg);
 			//获取指定版本标签
-			System.out.println(getTag("ce2110fa2cf47c60868e1b0284c62968892e6d20"));
+			System.out.println(getTag("c25fcfe1f1bf6d75c0a57232bab141c81a49b5c9"));
 			//删除标签
 			//deleteTag("rongzai");
-			 testpull();
+			 //testpull();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

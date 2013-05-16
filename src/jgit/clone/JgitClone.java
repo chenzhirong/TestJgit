@@ -21,16 +21,12 @@ public class JgitClone {
 		try {
 			JgitClone.testClone();
 		} catch (InvalidRemoteException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (TransportException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (GitAPIException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -38,7 +34,7 @@ public class JgitClone {
 	public static void testClone() throws IOException, InvalidRemoteException,
 			TransportException, GitAPIException {
 		FileRepositoryBuilder builder = new FileRepositoryBuilder();
-		File f = new File("C:/Documents and Settings/Administrator/×ÀÃæ/jonee");
+		File f = new File("D:/cfrManage/configfile");
 		Repository repository = builder.setGitDir(f).readEnvironment()
 				.findGitDir().build();
 		Git git = new Git(repository);

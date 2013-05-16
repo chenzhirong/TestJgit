@@ -35,8 +35,8 @@ public class LogAndTag {
 	 */
 	public static void main(String[] args) {
 		LogAndTag l = new LogAndTag();
-		// System.out.println(l.getLog());
-		System.out.println(l.getTag("ce2110fa2cf47c60868e1b0284c62968892e6d20"));
+		 System.out.println(l.getLog());
+		//System.out.println(l.getTag("ce2110fa2cf47c60868e1b0284c62968892e6d20"));
 	//	l.createTag("ce2110fa2cf47c60868e1b0284c62968892e6d20", "123", "rongzai521");
 		//l.getRef();
 		//l.createTag();
@@ -83,7 +83,7 @@ public class LogAndTag {
 			RevWalk walk=null;
 				try {
 					Git git = Git.open(new File("D:/cfrManage/ConfigFile/.git"));
-					Ref ref=git.getRepository().getRef("v1.1");
+					Ref ref=git.getRepository().getRef("rongzai");
 					System.out.println(ref.getObjectId());
 					git.revert().include(ref).call().reset();
 					git.reset().addPath("设备配置文件管理/思科/192.168.0.248/192.168.0.248config.txt").call();
@@ -207,9 +207,8 @@ public class LogAndTag {
 	public String getLog() {
 			Git git;
 				try {
-					git = Git.open(new File("D:/cfrManage/ConfigFile/.git"));
+					git = Git.open(new File("D:/cfrManage/ConfigFile"));
 					Iterable<RevCommit> revCommit = git.log().call();
-					
 					for (RevCommit revCommit2 : revCommit) {
 						String Obje=revCommit2.getName();
 						RevWalk walk=new RevWalk(git.getRepository());

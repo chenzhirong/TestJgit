@@ -50,8 +50,7 @@ public class JgitUtils {
 
 	public static void main(String[] args) {
 		JgitUtils nj = new JgitUtils();
-		System.out.println(nj
-				.getTag("ce2110fa2cf47c60868e1b0284c62968892e6d20"));
+		//System.out.println(nj.getTag("ce2110fa2cf47c60868e1b0284c62968892e6d20"));
 	}
 
 	// 回滚到指定版本
